@@ -1,0 +1,514 @@
+/* Reset - configuracion basica de mis estilos */
+*{
+    font-family: "Roboto", sans-serif;   
+ }
+ .body{
+    margin: 0;
+    background-color: #D4BEBE;
+ }
+/*header*/
+.menu-flex{
+    display: flex;
+}
+.menu-navegacion{
+    background-image: url('../images/backgroun-muro.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.menu-main{
+    background-color: #a2deec;
+}
+.menu-color{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+}
+.menu-color ul{
+    display: flex; 
+    width: 95%;
+    justify-content: end;
+}
+.menu-color ul li {
+    list-style: none;
+    margin: 0.5rem;
+    font-weight: 700;
+    background-color: #07b5bb00
+}
+.menu-color ul li a{
+    color: #fffaf6;
+    text-decoration: none;
+}
+.card img{
+    width: 100%;
+}
+.menu-navegacion img{
+    width: 20%;
+    padding: 20px;
+}
+.tittle-principal{
+    margin-left: 10rem;
+    color: #000000;
+    font-weight: 700;
+    font-size: 2.5em;
+    padding-top: 1rem;
+}
+
+/*main*/
+.card img{
+    width: 100%;
+}
+.card iframe{
+    width: 99%;
+}
+.titulo-exp{
+    text-align: center;
+    color: #000000;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.card-button-index{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    width: 3rem;
+}
+.card-index{
+    display: flex;
+    flex-flow: wrap;
+    margin: 10px
+}
+.index-text{
+    border: 1px;
+    padding: 5px;
+}
+.text{
+    border: 1px;
+    padding: 2px;
+    width: 2px;
+}
+.card-index h2{
+    font-weight: 700;
+    padding-left: 17rem;
+    padding: 1rem 
+}
+.card-index-h3{
+    font-weight: 700;
+    font-size: 2rem;
+    padding-left: 30rem;
+}
+.index-p{
+    flex-flow: wrap;
+    display: flex;
+    font-weight: 400;
+    margin-top: 1rem;
+    padding-left: 0.7rem;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin: 1rem 5rem 1rem 5rem;
+}
+.card-index button{
+    display: flex;
+    flex-flow: wrap;
+    height: 2.7rem;
+    width: 6.5em;
+    margin-top: 6rem;
+    margin-left: 9rem;
+    padding-left: 1rem;
+}
+.card-index-img-2{
+    display: flex;
+    width: 18rem;
+    height: 15rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    padding: 2rem;
+    justify-content: space-evenly;
+}
+.btn{
+    display: flex;
+    flex-flow: wrap;
+    background-color: #6738d3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #0056b3;
+}
+.card-index-img img{
+    display: flex;
+    width: 20rem;
+    height: 15rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+.card-index p{
+    flex-flow: wrap;
+    display: flex;
+    font-weight: 400;
+    margin-top: 1rem;
+    padding-left: 0.7rem;
+    justify-content: space-evenly;
+    width: 39rem;
+    font-size: 1.2rem;
+}
+.card-flex{
+    display: flex;
+    flex-flow: wrap;
+    margin-bottom: 20px;
+}
+.card-index img{
+    width: 80rem;
+    height: 35rem;
+    margin-top: 0.5rem;
+}
+.card-ayuda{
+    border-radius: 1rem;
+    flex-flow: wrap;
+    padding-left: 1rem;
+    display: flex;
+    text-align: justify;
+}
+.card-ayuda-inicio{
+    border: 1px;
+    width: 50%;
+    display: flex;
+    flex-flow: wrap;
+    margin-left: 15px;
+}
+.card-ayuda-inicio img{
+    width: 90%;
+    margin-left: 5%;
+}
+.card-ayuda-inicio h2{
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-left: 5%;
+}
+.card-ayuda-inicio p{
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin: 1rem;
+    text-align: left;
+}
+.card-ayuda-info-cot{
+    border: 1px;
+    width: 40%;
+    flex-flow: wrap;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin: 1rem;
+    text-align: center;
+}
+.card-ayuda-info{
+    margin: 0rem;
+    flex-flow: wrap;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 55%;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+.card-ayuda img{
+    display: flex;
+    flex-flow: wrap;
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 18rem;
+    height: 15rem;
+    padding-top: 1.5rem;
+}
+.card-ayuda-info h2{
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.card-ayuda p{
+    display: flex;
+    flex-flow: wrap;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.card-ayuda iframe{
+    display: flex;
+    padding-left: 5rem;
+    padding-top: 0rem;
+    flex-flow: wrap;
+    align-items: end;
+    padding: 0;
+    height: 15rem;
+}
+.card-ayuda--iframe{
+    border-radius: 1rem;
+    margin: 0rem;
+    flex-flow: wrap;
+    padding-left: 2rem;
+    display: flex;
+    width: 36rem;
+}
+.card-ayuda--iframe h3{
+    margin-left: 40%;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.card-ayuda--iframe iframe{
+    width: 67rem;
+    height: 16rem;
+}
+.card-ayuda--iframe p{
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+.card-ayuda-arch{
+    display: flex;
+    flex-flow: wrap;
+    border: 1px;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+}
+.card-quienes-somos{
+    border: 1px;
+    width: 36rem;
+    height: 28rem;
+    margin: 1rem;
+    flex-flow: wrap;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-quienes-somos-fin{
+    border: 1px;
+    width: 76rem;
+    height: 15rem;
+    flex-flow: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-quienes-somos-fin img{
+    display: flex;
+    flex-flow: wrap;
+    padding: 2rem;
+    width: 14rem;
+    height: 11rem;
+    transition: all 300ms;
+    position: relative;
+}
+.card-quienes-somos-fin img:hover{
+    transform: scale(1.30);
+}
+.card-quienes-somos img{
+    display: flex;
+    flex-flow: wrap;
+    padding: 1rem;
+    width: 12rem;
+    height: 12rem;
+    transition: all 300ms;
+    position: relative;
+}
+.card-quienes-somos img:hover{
+    transform: scale(1.30);
+}
+.card-quienes-somos p{
+    width: 24rem;
+    height: 17rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+.card-quienes-somos iframe{
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    height: 68%;
+}
+.card-contacto{
+    width: 35rem;
+    border-radius: 1rem;
+    margin: 0rem;
+    flex-flow: wrap;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-contacto h3{
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+.card-contacto p{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.card-contacto img{
+    padding: 1rem;
+    width: 20%;
+}
+.div-main{
+    border: 1px;
+    padding: 20px;
+    display: flex;
+    flex-flow: wrap;
+}
+.card-flex-space{
+    border: 1px;
+    padding: 20px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    font-size: 2rem;
+}
+.card-flex-space button{
+    justify-content: center;
+}
+.card-productos-video{
+    border-radius: 1rem;
+    margin: 0rem;
+    flex-flow: wrap;
+    padding-left: 2rem;
+    display: flex;
+    width: 36rem;
+}
+.card-productos-video h2{
+    margin-bottom: 0;
+    height: 29px;
+    padding-bottom: 27px;
+    align-items: center;
+    width: 35px;
+}
+.card-productos-video img{
+    width: 35%;
+    height: 55%;
+    padding-top: 4rem;
+    margin: 31px;
+}
+.card-productos-asd{
+    height: 50%;
+    width: 50%;
+    margin-left: 37px;
+}
+.card-productos-asd iframe{
+    height: 259px;
+    margin-top: 15px;
+}
+.card-productos-asd p{
+    font-size: 1.2rem;
+}
+.card-productos{
+    width: 10rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    flex-flow: wrap;
+    padding: 0.1rem 1rem 1rem 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 88px;
+}
+.card-productos-fin{
+    width: 24rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    flex-flow: wrap;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 174px;
+}
+.card-productos-fin p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.card-productos-h2{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 20%;
+    height: 29px;
+}
+.card-productos img{
+    width: 150px;
+    height: 150px;
+}
+.card-productos h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.card-productos p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    width: 150px;
+}
+.card-productos iframe{
+    width: 100%;
+}
+.btn-prod{
+    display: flex;
+    flex-flow: wrap;
+    background-color: #6738d3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 585px;
+}
+.btn-prod:hover{
+    background-color: #0056b3;
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.container{
+    border: 1px;
+    width: 20rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+/*footer*/
+.footer{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.menu-color-foot{
+    display: flex;
+    background-color: none;
+    width: 100%;
+}
+.menu-color-foot ul{
+    display: flex; 
+    width: 95%;
+    justify-content: end;
+}
+.menu-color-foot ul li {
+    list-style: none;
+    margin: 0.5rem;
+    font-weight: 700;
+    background-color: #07b5bb00
+}
+.menu-color-foot ul li a{
+    color: #000000;
+    text-decoration: none;
+}
