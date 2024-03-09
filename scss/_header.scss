@@ -1,0 +1,48 @@
+/*header*/
+.menu-flex{
+    display: flex;
+}
+.menu-navegacion{
+    background-image: url('../images/backgroun-muro.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    img{
+        width: 20%;
+        padding: 20px;
+    } 
+}
+.menu-main{
+    background-color: #a2deec;
+}
+.menu-color{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    ul{
+        display: flex; 
+        width: 95%;
+        justify-content: end;
+        li{
+            list-style: none;
+            margin: 0.5rem;
+            font-weight: 700;
+            background-color: #07b5bb00
+        }
+    }
+}
+.menu-color ul li a{
+    color: #fffaf6;
+    text-decoration: none;
+}
+.card img{
+    width: 100%;
+}
+.tittle-principal{
+    margin-left: 10rem;
+    color: #000000;
+    font-weight: 700;
+    font-size: 2.5em;
+    padding-top: 1rem;
+}
+ 
