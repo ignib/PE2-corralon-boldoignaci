@@ -1,0 +1,9 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.3fr 1fr 0.01fr;
+    grid-template-areas: 
+    "header header header header"
+    "main   main   main   main"
+    "footer footer footer footer";
+ }

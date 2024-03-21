@@ -1,39 +1,55 @@
 /*header*/
 .menu-flex{
     display: flex;
+    img{
+        background-color: #e9d6d6;
+        opacity: 0.7;
+    }
 }
 .menu-navegacion{
-    background-image: url('../images/backgroun-muro.avif');
-    background-repeat: no-repeat;
+    background-color: #e9d6d6;
+    background-repeat: repeat;
     background-size: cover;
     background-position: center;
+    width: 100%;
+    grid-area: header;
+    background-image: url(../images/foto-principal.jpg);
+    height: 39rem;
+
     img{
-        width: 20%;
-        padding: 20px;
-    } 
+        width: 7rem;
+        height: 7rem;
+    }
 }
 .menu-main{
     background-color: #a2deec;
 }
 .menu-color{
     display: flex;
-    background-color: transparent;
+    background-color: #e9d6d6;
     width: 100%;
+    opacity: 0.7;
+
     ul{
         display: flex; 
         width: 95%;
         justify-content: end;
+        margin-left: 5rem;
+        align-items: center;
+        
         li{
             list-style: none;
-            margin: 0.5rem;
+            margin: 0.8rem;
             font-weight: 700;
-            background-color: #07b5bb00
+            font-size: 1.1rem;
+            background-color: #07b5bb00;
+            
+            a{
+                color: #361800;
+                text-decoration: none;
+            }
         }
     }
-}
-.menu-color ul li a{
-    color: #fffaf6;
-    text-decoration: none;
 }
 .card img{
     width: 100%;
@@ -44,5 +60,5 @@
     font-weight: 700;
     font-size: 2.5em;
     padding-top: 1rem;
+    margin-left: 35%;
 }
- 

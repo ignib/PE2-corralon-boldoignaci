@@ -1,3 +1,13 @@
+.body{
+    margin: 0;
+    background-color: #d1bc8f;
+    box-sizing: border-box;
+    width: 100%;
+ }
+/*main*/
+.main{
+    grid-area: main;
+}
 .card img{
     width: 100%;
 }
@@ -19,9 +29,38 @@
 .card-index{
     display: flex;
     flex-flow: wrap;
-    margin: 10px
+    p{
+        flex-flow: wrap;
+        display: flex;
+        font-weight: 400;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        text-align: center;
+        padding-left: 0.7rem;
+        justify-content: space-evenly;
+        width: 39rem;
+        font-size: 1.2rem;
+    }
+    button{
+        display: flex;
+        flex-flow: wrap;
+        height: 2.7rem;
+        width: 6.5em;
+        margin-top: 6rem;
+        margin-left: 9rem;
+        padding-left: 1rem;
+    }
+    h2{
+        font-weight: 700;
+        padding-left: 17rem;
+        padding: 1rem 
+    }
+    img{
+        margin: none;
+        width: 81.5rem;
+        height: 35rem;
+    }
 }
-
 .index-text{
     border: 1px;
     padding: 5px;
@@ -30,11 +69,6 @@
     border: 1px;
     padding: 2px;
     width: 2px;
-}
-.card-index h2{
-    font-weight: 700;
-    padding-left: 17rem;
-    padding: 1rem 
 }
 .card-index-h3{
     font-weight: 700;
@@ -50,16 +84,9 @@
     justify-content: center;
     font-size: 1.2rem;
     margin: 1rem 5rem 1rem 5rem;
+    text-align: center;
 }
-.card-index button{
-    display: flex;
-    flex-flow: wrap;
-    height: 2.7rem;
-    width: 6.5em;
-    margin-top: 6rem;
-    margin-left: 9rem;
-    padding-left: 1rem;
-}
+
 .card-index-img-2{
     display: flex;
     width: 18rem;
@@ -68,12 +95,19 @@
     margin-left: 1rem;
     padding: 2rem;
     justify-content: space-evenly;
+    img{
+        transition: all 300ms;
+        position: relative;
+    }
+    img:hover{
+        transform: scale(1.10);
+    }
 }
 .btn{
     display: flex;
     flex-flow: wrap;
     background-color: #6738d3;
-    color: white;
+    color: #ffffff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -86,27 +120,18 @@
     width: 20rem;
     height: 15rem;
     margin-top: 0.5rem;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
+    transition: all 300ms;
+    position: relative;
 }
-.card-index p{
-    flex-flow: wrap;
-    display: flex;
-    font-weight: 400;
-    margin-top: 1rem;
-    padding-left: 0.7rem;
-    justify-content: space-evenly;
-    width: 39rem;
-    font-size: 1.2rem;
+.card-index-img img:hover{
+    transform: scale(1.10);
 }
 .card-flex{
     display: flex;
     flex-flow: wrap;
     margin-bottom: 20px;
-}
-.card-index img{
-    width: 80rem;
-    height: 35rem;
-    margin-top: 0.5rem;
+    background-color: #d1bc8f;
 }
 .card-ayuda{
     border-radius: 1rem;
@@ -114,6 +139,27 @@
     padding-left: 1rem;
     display: flex;
     text-align: justify;
+    iframe{
+        display: flex;
+        padding-left: 18rem;
+        padding-top: 3rem;
+        flex-flow: wrap;
+    }
+    p{
+        display: flex;
+        flex-flow: wrap;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    img{
+        display: flex;
+        flex-flow: wrap;
+        margin-left: 4rem;
+        margin-right: 1rem;
+        width: 18rem;
+        height: 15rem;
+        padding-top: 1.5rem;
+    }
 }
 .card-ayuda-inicio{
     border: 1px;
@@ -121,21 +167,22 @@
     display: flex;
     flex-flow: wrap;
     margin-left: 15px;
-}
-.card-ayuda-inicio img{
-    width: 90%;
-    margin-left: 5%;
-}
-.card-ayuda-inicio h2{
-    font-weight: 700;
-    font-size: 1.3rem;
-    margin-left: 5%;
-}
-.card-ayuda-inicio p{
-    font-weight: 400;
-    font-size: 1.3rem;
-    margin: 1rem;
-    text-align: left;
+    p{
+        font-weight: 400;
+        font-size: 1.3rem;
+        padding-top: 1rem;
+        text-align: left;
+    }
+    h2{
+        font-weight: 700;
+        font-size: 1.3rem;
+        margin-left: 5%;
+    }
+    img{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 3rem;
+    }
 }
 .card-ayuda-info-cot{
     border: 1px;
@@ -148,6 +195,21 @@
     font-size: 1.7rem;
     margin: 1rem;
     text-align: center;
+    p{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}
+.card-ayuda-txt{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+    h2{
+        font-size: 1.8rem;
+        font-weight: 700;
+        align-items: center;
+    }
 }
 .card-ayuda-info{
     margin: 0rem;
@@ -159,59 +221,31 @@
     font-weight: 400;
     font-size: 1.3rem;
     margin: 1rem;
-}
-.card-ayuda img{
-    display: flex;
-    flex-flow: wrap;
-    margin-top: -1.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    width: 18rem;
-    height: 15rem;
-    padding-top: 1.5rem;
-}
-.card-ayuda-info h2{
-    display: flex;
-    flex-flow: wrap;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-}
-.card-ayuda p{
-    display: flex;
-    flex-flow: wrap;
-    font-size: 1rem;
-    font-weight: 400;
-}
-.card-ayuda iframe{
-    display: flex;
-    padding-left: 5rem;
-    padding-top: 0rem;
-    flex-flow: wrap;
-    align-items: end;
-    padding: 0;
-    height: 15rem;
+    h2{
+        display: flex;
+        flex-flow: wrap;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
 }
 .card-ayuda--iframe{
-    border-radius: 1rem;
-    margin: 0rem;
     flex-flow: wrap;
-    padding-left: 2rem;
     display: flex;
-    width: 36rem;
-}
-.card-ayuda--iframe h3{
-    margin-left: 40%;
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-.card-ayuda--iframe iframe{
-    width: 67rem;
-    height: 16rem;
-}
-.card-ayuda--iframe p{
-    padding-top: 3rem;
-    font-size: 1.5rem;
-    margin-left: 3rem;
+    p{
+        padding-top: 3rem;
+        font-size: 1.5rem;
+        margin-left: 3rem;
+    }
+    iframe{
+        height: 20rem;
+        margin-left: 21rem;
+    }
+    h3{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-left: 36rem;
+        height: 20px;
+    }
 }
 .card-ayuda-arch{
     display: flex;
@@ -230,6 +264,28 @@
     padding-left: 1rem;
     display: flex;
     justify-content: space-evenly;
+    iframe{
+        width: 100%;
+        padding: 1rem;
+        padding-bottom: 1rem;
+        height: 68%;
+    }
+    p{
+        width: 24rem;
+        height: 17rem;
+        margin: 1rem;
+        font-size: 1.5rem;
+        padding-right: 1rem;
+    }
+    img{
+        display: flex;
+        flex-flow: wrap;
+        padding: 1rem;
+        width: 12rem;
+        height: 12rem;
+        transition: all 300ms;
+        position: relative;
+    }
 }
 .card-quienes-somos-fin{
     border: 1px;
@@ -238,43 +294,21 @@
     flex-flow: wrap;
     display: flex;
     justify-content: space-evenly;
-}
-.card-quienes-somos-fin img{
-    display: flex;
-    flex-flow: wrap;
-    padding: 2rem;
-    width: 14rem;
-    height: 11rem;
-    transition: all 300ms;
-    position: relative;
+    img{
+        display: flex;
+        flex-flow: wrap;
+        padding: 2rem;
+        width: 14rem;
+        height: 11rem;
+        transition: all 300ms;
+        position: relative;
+    }
 }
 .card-quienes-somos-fin img:hover{
     transform: scale(1.30);
 }
-.card-quienes-somos img{
-    display: flex;
-    flex-flow: wrap;
-    padding: 1rem;
-    width: 12rem;
-    height: 12rem;
-    transition: all 300ms;
-    position: relative;
-}
 .card-quienes-somos img:hover{
     transform: scale(1.30);
-}
-.card-quienes-somos p{
-    width: 24rem;
-    height: 17rem;
-    margin: 1rem;
-    font-size: 1.5rem;
-    padding-right: 1rem;
-}
-.card-quienes-somos iframe{
-    width: 100%;
-    padding: 1rem;
-    padding-bottom: 1rem;
-    height: 68%;
 }
 .card-contacto{
     width: 35rem;
@@ -284,70 +318,73 @@
     padding-left: 1rem;
     display: flex;
     justify-content: space-evenly;
-}
-.card-contacto h3{
-    font-weight: 700;
-    margin-bottom: 1rem;
-    padding-top: 1rem;
-    font-size: 1.5rem;
-}
-.card-contacto p{
-    font-weight: 400;
-    font-size: 1.5rem;
-}
-.card-contacto img{
-    padding: 1rem;
-    width: 20%;
+    text-align: center;
+    img{
+        padding: 1rem;
+        width: 20%;
+    }
+    p{
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    h3{
+        font-weight: 700;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+        font-size: 1.5rem;
+    }
 }
 .div-main{
     border: 1px;
-    padding: 20px;
     display: flex;
     flex-flow: wrap;
 }
 .card-flex-space{
     border: 1px;
-    padding: 20px;
     display: flex;
     flex-flow: wrap;
-    justify-content: center;
     font-size: 2rem;
+    justify-content: space-evenly;
+    button{
+        justify-content: center;
+    }
 }
-.card-flex-space button{
+.bck-prod{
+    background-color: #aa9974;
+}
+.tittle-mat{
+    display: flex;
     justify-content: center;
+    height: 40px;
 }
 .card-productos-video{
     border-radius: 1rem;
-    margin: 0rem;
     flex-flow: wrap;
-    padding-left: 2rem;
     display: flex;
-    width: 36rem;
-}
-.card-productos-video h2{
-    margin-bottom: 0;
-    height: 29px;
-    padding-bottom: 27px;
-    align-items: center;
-    width: 35px;
-}
-.card-productos-video img{
-    width: 35%;
-    height: 55%;
-    padding-top: 4rem;
-    margin: 31px;
+    img{
+        width: 35%;
+        height: 70%;
+        padding-top: 4rem;
+        margin-left: 9rem;
+    }
+    iframe{
+        margin-top: 2rem;
+        margin-left: 22rem;
+    }
 }
 .card-productos-asd{
     height: 50%;
     width: 50%;
     margin-left: 37px;
-}
-.card-productos-asd iframe{
-    height: 259px;
-    margin-top: 15px;
-}
-.card-productos-asd p{
-    font-size: 1.2rem;
+    p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    iframe{
+        height: 259px;
+        margin-top: 15px;
+        margin-left: 3rem;
+    }
 }
 .card-productos{
     width: 10rem;
@@ -359,6 +396,24 @@
     display: flex;
     justify-content: space-evenly;
     margin-left: 88px;
+    iframe{
+        width: 100%;
+    }
+    p{
+        font-weight: 400;
+        font-size: 1.2rem;
+        width: 150px;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
 }
 .card-productos-fin{
     width: 24rem;
@@ -368,34 +423,20 @@
     margin: 1rem;
     display: flex;
     justify-content: space-evenly;
-    margin-left: 174px;
-}
-.card-productos-fin p{
-    font-size: 1.2rem;
-    font-weight: 400;
+    h2{
+        text-align: center;
+    }
+    p{
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-align: center;
+    }
 }
 .card-productos-h2{
     font-size: 1.3rem;
     font-weight: 700;
     margin-left: 20%;
     height: 29px;
-}
-.card-productos img{
-    width: 150px;
-    height: 150px;
-}
-.card-productos h2{
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-.card-productos p{
-    font-weight: 400;
-    font-size: 1.2rem;
-    width: 150px;
-}
-.card-productos iframe{
-    width: 100%;
 }
 .btn-prod{
     display: flex;
