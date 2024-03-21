@@ -1,0 +1,304 @@
+.footer{
+    text-align: center;
+    grid-area: footer;
+    a{
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+}
+.menu-color-foot{
+    display: flex;
+    background-color: none;
+    width: 100%;
+    ul{
+        display: flex; 
+        width: 95%;
+        justify-content: end;
+        li {
+            list-style: none;
+            margin: 0.5rem;
+            font-weight: 700;
+            background-color: #07b5bb00;
+            a{
+                color: #000000;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+//tablet
+
+@media (min-width: 481px) and (max-width: 768px){
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 1fr 0.01fr;
+        grid-template-areas: 
+        "header "
+        "main "
+        "footer "
+        ;
+    }
+    .card-index p {
+        width: 32rem;
+        margin-left: 2rem;
+    }
+    .card-index-mat{
+        margin-left: 3rem;
+    }
+    .card-index-mat img{
+        width: 30rem;
+    }
+    .card-index button{
+        margin-top: 3rem;
+        margin-left: 19.5rem;
+    }
+    .card-index-img img {
+        margin-left: 10.5rem;
+    }
+    .card-index h2{
+        padding: 3rem;
+        width: 45rem;
+    }
+    .card-index-h3{
+        padding-left: 13rem;
+        margin-left: 15rem;
+    }
+    .card-ayuda-inicio img {
+        height: 20rem;
+        width: 20rem;
+        margin-top: 15rem;
+    }
+    .card-ayuda{
+        justify-content: space-evenly;
+    }
+    .card-ayuda img{
+        width: 15rem;
+        height: 16rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .card-ayuda-info-cot p {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .card-ayuda iframe{
+        padding-left: 1rem;
+    }    
+    .card-ayuda--iframe h3{
+        margin-left: 19rem;
+    }
+    .card-ayuda--iframe iframe{
+        margin-left: 3rem;
+    }
+    .card-ayuda--iframe p {
+        margin-left: 1rem;
+        text-align: center;
+    }
+    .menu-navegacion{
+        width: 52rem;
+    }
+    .card-productos-video iframe {
+        margin-left: 7rem;
+    }
+    .card-productos-video img {
+        height: 90%;
+        margin-left: 5rem;
+    }
+    .card-flex-space {
+        margin-top: 5rem;
+    }
+    .card-productos {
+        margin: 2rem;
+        margin-left: 36px;
+    }
+    .card-productos img {
+        width: 236px;
+        height: 248px;
+    }
+    .card-productos p {
+        font-size: 1.5rem;
+        width: 167px;
+    }
+    .card-productos-asd iframe {
+        margin-left: -5rem;
+    }
+    .card-productos-asd p {
+        font-size: 1.5rem;
+    }
+    .btn-prod {
+        margin-top: 2rem;
+        margin-left: 368px;
+    }  
+    .card-productos-fin{
+        margin-top: -5rem;
+    }
+    .menu-navegacion{
+        width: 75rem;
+    }
+    .card-quienes-somos p {
+        width: 32rem;
+        font-size: 1.8rem;
+    }
+    .card-quienes-somos {
+        width: 32rem;
+    }
+    .card-quienes-somos-fin {
+        height: 42rem;
+    }
+    .card-quienes-somos-fin img {
+        width: 25rem;
+        height: 19rem;
+    }
+}
+
+//mobile
+
+@media  (min-width: 320px) and (max-width: 480px){
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 1fr 0.01fr;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer"
+        ;
+    }
+    .card-index p {
+        margin-left: 1rem;
+    }
+    .card-index-mat {
+        margin-left: 1rem;
+    }
+    .card-index-img img {
+        width: 24rem;
+        height: 18rem;
+        margin-left: 8.5rem;
+    }
+    .card-index button{
+        margin-left: 9.5rem;
+    }
+    .card-index h2{
+        padding: 2rem;
+    }
+    .card-index p {
+        margin-left: 0.5rem;
+    }
+    .card-index-img-2{
+        width: 18rem;
+        height: 18rem;
+        margin-left: 11.5rem;
+    }
+    .card-ayuda-inicio {
+        width: 100%;
+        margin-left: 9px;
+    }
+    .card-ayuda-info-cot{
+        width: 100%;
+        padding-left: 0rem;
+    }
+    .card-ayuda-info-cot p{
+        font-size: 1.6rem;
+    }
+    .card-ayuda-txt{
+        padding-right: 1rem;
+    }
+    .card-ayuda-txt h2 {
+        font-size: 2.5rem;
+    }
+    .card-ayuda-info{
+        font-size: 1.6rem;
+    }
+    .card-ayuda{
+        justify-content: space-evenly;
+    }
+    .card-ayuda img{
+        width: 15rem;
+        height: 16rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .card-ayuda iframe {
+        padding-left: 1.5rem;
+    }
+    .card-ayuda--iframe iframe {
+        margin-left: 2.5rem;
+    }
+    .card-ayuda--iframe h3 {
+        margin-left: 17rem;
+    }
+    .card-ayuda--iframe p {
+        font-size: 1.3rem;
+        margin-left: 1rem;
+        text-align: center;
+    }
+    .card-productos-video iframe {
+        margin-left: 8rem;
+    }
+    .tittle-mat {
+        margin-left: 2rem;
+    }
+    .menu-navegacion{
+        width: 52rem;
+    }
+    .card-productos-video img {
+        height: 90%;
+        margin-left: 5rem;
+    }
+    .card-flex-space {
+        margin-top: 5rem;
+    }
+    .card-productos {
+        margin: 2rem;
+        margin-left: 36px;
+    }
+    .card-productos img {
+        width: 236px;
+        height: 248px;
+    }
+    .card-productos p {
+        font-size: 1.5rem;
+        width: 167px;
+    }
+    .card-productos-asd iframe {
+        margin-left: -5rem;
+    }
+    .card-productos-asd p {
+        font-size: 1.5rem;
+    }
+    .btn-prod {
+        margin-top: 2rem;
+        margin-left: 368px;
+    }  
+    .card-productos-fin{
+        margin-top: -5rem;
+    }
+    .menu-navegacion{
+        width: 76rem;
+    }
+    .card-quienes-somos {
+        width: 53rem;
+    }
+    .card-quienes-somos p {
+        width: 54rem;
+        font-size: 2rem;
+        height: 100px;
+    }
+    .card-quienes-somos img {
+        width: 18rem;
+        height: 16rem;
+        margin: 1rem;
+    }
+    .card-quienes-somos iframe {
+        height: 80%;
+        margin-top: 7rem;
+    }
+    .card-quienes-somos-fin {
+        height: 35rem;
+    }
+    .card-quienes-somos-fin img {
+        width: 26rem;
+        height: 17rem;
+    }
+}

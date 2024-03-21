@@ -1,8 +1,14 @@
 // Este archivo contiene mi menu principal
 //reset
+@import './reset/vars';
 @import './reset/reset';
+@import './reset/layout';
+
 //estructura
+
 
 @import 'header';
 @import 'principal';
 @import 'footer';
+
+//MEDIA QUERIES
