@@ -75,7 +75,12 @@
   padding-top: 1rem;
   margin-left: 35%;
 }
-
+.navbar{
+  display: flex;
+  background-color: #e9d6d6;
+  width: 100%;
+  opacity: 0.7;
+}
 .body {
   margin: 0;
   background-color: #d1bc8f;
@@ -101,6 +106,7 @@
   color: #000000;
   font-weight: 400;
   font-size: 3rem;
+  padding-left: 15rem;
 }
 
 .card-button-index {
@@ -239,6 +245,8 @@
   padding-left: 18rem;
   padding-top: 3rem;
   flex-flow: wrap;
+  width: 54rem;
+  height: 23rem;
 }
 .card-ayuda p {
   display: flex;
@@ -439,7 +447,12 @@
   padding-top: 1rem;
   font-size: 1.5rem;
 }
-
+.card-contacto h2 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
 .div-main {
   border: 1px;
   display: flex;
@@ -573,6 +586,7 @@
   justify-content: center;
   font-weight: 400;
   font-size: 2rem;
+  padding-left: 22rem;
 }
 
 .container {
@@ -730,6 +744,10 @@
   .card-quienes-somos-fin img {
     width: 25rem;
     height: 19rem;
+  }
+  .contact{
+    display: flex;
+    flex-flow: wrap;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
